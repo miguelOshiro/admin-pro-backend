@@ -19,7 +19,8 @@ dbConnection();
 
 //console.log(process.env);
 
-
+//Directori publico
+app.use(express.static('public'));
 
 //Rutas
 app.use('/api/usuarios', require('./routes/usuarios'));
