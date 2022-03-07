@@ -101,7 +101,6 @@ const validarAdmin_ROLE_o_MismoUsuario = async(req, res, next) => {
 }
 
 
-
 module.exports = {
     validarJWT,
     validarAdmin_ROLE,
